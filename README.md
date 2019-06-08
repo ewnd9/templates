@@ -1,6 +1,7 @@
 # templates
 
-
 ## Usage
 
-WIP
+```sh
+$ belt ewnd9:init --name node-express
+```
