@@ -1,0 +1,11 @@
+{
+  "name": "generator-template",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "start:dev": "yarn start"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
