@@ -1,0 +1,17 @@
+{
+  "name": "generator-template",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "start:dev": "yarn start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "app-cli",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/cli",
+    "start:dev": "ts-node src/cli",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "globby": "^10.0.1",
+    "yargs": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^13.0.3"
+  }
+}
