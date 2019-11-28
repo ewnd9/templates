@@ -1,0 +1,3 @@
+- http://postgrest.org/en/v6.0/tutorials/tut0.html
+- https://github.com/mattddowney/compose-postgrest
+- https://github.com/subzerocloud/postgrest-starter-kit/blob/master/docker-compose.yml
