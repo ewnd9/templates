@@ -1,0 +1,11 @@
+{
+  "name": "templates",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docs": "md-magic --path '**/*.md' --ignore 'node_modules'"
+  },
+  "devDependencies": {
+    "markdown-magic": "^1.0.0"
+  }
+}
