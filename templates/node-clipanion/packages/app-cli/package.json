@@ -1,7 +1,6 @@
 {
   "name": "app-cli",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "start": "node dist/cli",
     "start:dev": "ts-node src/cli",

@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "start": "node .",
-    "start:dev": "yarn start"
+    "start:dev": "yarn start",
+    "release": "lerna publish --conventional-commits --yes  --no-push"
   },
   "workspaces": [
     "packages/*"
@@ -11,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^12.12.14",
+    "lerna": "^3.20.2",
     "ts-node": "^8.5.2",
     "typescript": "^3.7.2"
   }
