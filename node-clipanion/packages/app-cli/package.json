@@ -1,0 +1,16 @@
+{
+  "name": "app-cli",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/cli",
+    "start:dev": "ts-node src/cli",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clipanion": "^2.1.6",
+    "globby": "^11.0.0",
+    "yup": "^0.28.0"
+  }
+}
